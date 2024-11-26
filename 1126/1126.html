@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Siquan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h4>關閉按鈕 (Close button)</h4>
+        <button type="button" class="btn-close" disabled></button>
+        <br>
+
+        <h4>旋轉圖示 (Sipnners)</h4>
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <br>
+
+        <h4>麵包屑 (Breadcrumb) </h4>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#">提拉米蘇</a></li>
+                <li class="breadcrumb-item active" aria-current="page">巴斯克蛋糕</li>
+            </ol>
+        </nav>
+        <br>
+
+        <h4>警報效果 (Alert) </h4>
+        <div class="alert alert-info" role="alert">
+            <strong>中華隊棒球拿第一！</strong>享免費欣賞思荃自拍照的優惠！
+        </div>
+        <br>
+
+        <h4>下拉式清單 (Dropdown) </h4>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                點我看更多
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">爆米花志工團</a></li>
+                <li><a class="dropdown-item" href="#">系排球經</a></li>
+                <li><a class="dropdown-item" href="#">了解更多..</a></li>
+            </ul>
+        </div>
+        <br>
+
+        <h4>按鈕群組 (Button group) </h4>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-outline-primary">左邊</button>
+            <button type="button" class="btn btn-outline-primary">中間</button>
+            <button type="button" class="btn btn-outline-primary">右邊</button>
+        </div>
+        <br>
+
+        <h4>導覽與標籤頁 (Navs&Tabs)</h4>
+        <!-- 導覽元件 -->
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#tab1">陳華</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab2">林俊傑</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab3">張惠妹</a></li>
+        </ul>
+        <!-- 標籤頁內容 -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab1">
+                <p>《左邊的人》…。</p>
+            </div>
+            <div class="tab-pane fade" id="tab2">
+                <p>《那些你很冒險的夢》…。</p>
+            </div>
+            <div class="tab-pane fade" id="tab3">
+                <p>《我要快樂》…。</p>
+            </div>
+        </div>
+        <br>
+
+        <h4>導覽列 (Navbar)</h4>
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">新竹一日遊</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">首頁</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">地圖</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">美食與玩樂</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">貢丸米粉</a>
+                                <a class="dropdown-item" href="#">巨城</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+
+        <h4>分頁導覽 (Pagination) </h4>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+
+</body>
+
+
+</html>
